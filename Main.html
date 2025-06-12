@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOD-MUSIC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>MOOD-MUSIC</h1>
+<h3>Select the mood type: </h3>
+
+<select id="moodSelect" onchange="playMood()">
+    <option value="default">----Choose your Mood---- </option>
+    <option value="happy">Happy 😊</option>
+    <option value="sad">Sad 😢</option>
+    <option value="relaxed">Relaxed 😌</option>
+    <option value="energetic">Energetic 💪</option>
+    <option value="Love">Love 😍</option>
+
+</select>
+
+<!-- To display the links -->
+<div id="suggestionContainer">
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
